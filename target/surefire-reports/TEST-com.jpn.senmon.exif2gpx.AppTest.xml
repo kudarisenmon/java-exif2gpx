@@ -1,65 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jpn.senmon.exif2gpx.AppTest" time="0.099" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.jpn.senmon.exif2gpx.AppTest" time="0.044" tests="1" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="gopherProxySet" value="false"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
-    <property name="sun.cpu.isalist" value=""/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Applications/Eclipse_2021-06.app/Contents/workspace/exif2gpx/target/test-classes:/Applications/Eclipse_2021-06.app/Contents/workspace/exif2gpx/target/classes:/Users/kudarisenmon/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/kudarisenmon/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kudarisenmon/.m2/repository/com/drewnoakes/metadata-extractor/2.16.0/metadata-extractor-2.16.0.jar:/Users/kudarisenmon/.m2/repository/com/adobe/xmp/xmpcore/6.1.11/xmpcore-6.1.11.jar:/Users/kudarisenmon/.m2/repository/io/jenetics/jpx/2.2.0/jpx-2.2.0.jar:"/>
-    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="MS932"/>
+    <property name="java.class.path" value="C:\Users\kudar\Documents\GitHub\java-exif2gpx\target\test-classes;C:\Users\kudar\Documents\GitHub\java-exif2gpx\target\classes;C:\Users\kudar\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\kudar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kudar\.m2\repository\com\drewnoakes\metadata-extractor\2.16.0\metadata-extractor-2.16.0.jar;C:\Users\kudar\.m2\repository\com\adobe\xmp\xmpcore\6.1.11\xmpcore-6.1.11.jar;C:\Users\kudar\.m2\repository\io\jenetics\jpx\2.2.0\jpx-2.2.0.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
-    <property name="user.timezone" value=""/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
     <property name="java.vm.specification.version" value="11"/>
-    <property name="os.name" value="Mac OS X"/>
+    <property name="os.name" value="Windows 10"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="JP"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Applications/Eclipse_2021-06.app/Contents/workspace/exif2gpx/target/surefire/surefirebooter12165496612176658962.jar /Applications/Eclipse_2021-06.app/Contents/workspace/exif2gpx/target/surefire 2021-08-31T21-00-29_077-jvmRun1 surefire5432455429814789209tmp surefire_03865153281899494267tmp"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.boot.library.path" value="F:\pleiades\java\11\bin"/>
+    <property name="sun.java.command" value="C:\Users\kudar\AppData\Local\Temp\surefire15733069977286299617\surefirebooter2847132871403490835.jar C:\Users\kudar\AppData\Local\Temp\surefire15733069977286299617 2021-09-09T16-22-03_658-jvmRun1 surefire16932357493635302908tmp surefire_013884186681311707134tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Applications/Eclipse_2021-06.app/Contents/workspace/exif2gpx/target/test-classes:/Applications/Eclipse_2021-06.app/Contents/workspace/exif2gpx/target/classes:/Users/kudarisenmon/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/kudarisenmon/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/kudarisenmon/.m2/repository/com/drewnoakes/metadata-extractor/2.16.0/metadata-extractor-2.16.0.jar:/Users/kudarisenmon/.m2/repository/com/adobe/xmp/xmpcore/6.1.11/xmpcore-6.1.11.jar:/Users/kudarisenmon/.m2/repository/io/jenetics/jpx/2.2.0/jpx-2.2.0.jar:"/>
+    <property name="surefire.test.class.path" value="C:\Users\kudar\Documents\GitHub\java-exif2gpx\target\test-classes;C:\Users\kudar\Documents\GitHub\java-exif2gpx\target\classes;C:\Users\kudar\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\kudar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\kudar\.m2\repository\com\drewnoakes\metadata-extractor\2.16.0\metadata-extractor-2.16.0.jar;C:\Users\kudar\.m2\repository\com\adobe\xmp\xmpcore\6.1.11\xmpcore-6.1.11.jar;C:\Users\kudar\.m2\repository\io\jenetics\jpx\2.2.0\jpx-2.2.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="/Users/kudarisenmon"/>
+    <property name="user.home" value="C:\Users\kudar"/>
     <property name="user.language" value="ja"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-07-20"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home"/>
-    <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Applications/Eclipse_2021-06.app/Contents/workspace/exif2gpx"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="F:\pleiades\java\11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\kudar\Documents\GitHub\java-exif2gpx"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Applications/Eclipse_2021-06.app/Contents/workspace/exif2gpx/target/surefire/surefirebooter12165496612176658962.jar"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\kudar\AppData\Local\Temp\surefire15733069977286299617\surefirebooter2847132871403490835.jar"/>
+    <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="java.runtime.version" value="11.0.12+7-LTS"/>
-    <property name="user.name" value="kudarisenmon"/>
-    <property name="path.separator" value=":"/>
-    <property name="os.version" value="11.5.2"/>
+    <property name="java.runtime.version" value="11.0.11+9"/>
+    <property name="user.name" value="kudar"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="MS932"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Corretto-11.0.12.7.2"/>
-    <property name="localRepository" value="/Users/kudarisenmon/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
-    <property name="java.io.tmpdir" value="/var/folders/fg/695ykgqx037bwytgdh_t552h0000gn/T/"/>
-    <property name="java.version" value="11.0.12"/>
-    <property name="user.dir" value="/Applications/Eclipse_2021-06.app/Contents/workspace/exif2gpx"/>
-    <property name="os.arch" value="x86_64"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK-11.0.11+9"/>
+    <property name="localRepository" value="C:\Users\kudar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\kudar\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\kudar\Documents\GitHub\java-exif2gpx"/>
+    <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="java.library.path" value="/Users/kudarisenmon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="F:\pleiades\java\11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;F:/pleiades/eclipse//./jre/bin/server;F:/pleiades/eclipse//./jre/bin;C:\Program Files\AdoptOpenJDK\jre-8.0.265.01-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\IcedTeaWeb\WebStart\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\kudar\AppData\Local\Microsoft\WindowsApps;C:\Users\kudar\AppData\Local\GitHubDesktop\bin;F:\pleiades\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.vendor" value="Amazon.com Inc."/>
-    <property name="java.vm.version" value="11.0.12+7-LTS"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.11+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.jpn.senmon.exif2gpx.AppTest" time="0.002"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.jpn.senmon.exif2gpx.AppTest" time="0.003"/>
 </testsuite>
